@@ -14,13 +14,13 @@ expose:
   - --v
   - 4
   config:
-    domain: 54.148.50.10.nip.io
+    domain: 54.148.250.192.nip.io
     exposer: Ingress
     http: "true"
 jenkins:
   Servers:
     Global:
       EnvVars:
-        DOCKER_REGISTRY: 558415796408.dkr.ecr.us-west-2.amazonaws.com
+        DOCKER_REGISTRY: 138599857939.dkr.ecr.us-west-2.amazonaws.com
         TILLER_NAMESPACE: kube-system
 prow: {}
